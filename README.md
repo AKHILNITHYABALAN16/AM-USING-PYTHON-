@@ -46,11 +46,11 @@ Program
 import numpy as np
 import matplotlib.pyplot as plt
 
-Am = 2.9
-fm = 184
-Ac = 5.8
-fc = 1840
-fs = 18400
+Am = 5.0
+fm = 3944
+Ac = 10.0
+fc = 3940
+fs = 39400
 t = np.arange(0, 2/fm, 1/fs)
 m = Am * np.cos(2 * np.pi * fm * t)
 plt.subplot(3, 1, 1)
@@ -78,17 +78,19 @@ plt.show()
 
 Output Waveform
 
-<img width="630" height="469" alt="image" src="https://github.com/user-attachments/assets/682370a9-a1b9-440d-b902-fdb95e874b94" />
+<img width="865" height="695" alt="image" src="https://github.com/user-attachments/assets/df0c3dc3-bcb6-41a2-b198-fbf1bfda723d" />
 
+  
 TABULATION:
 
-![WhatsApp Image 2025-10-23 at 22 33 05_5580a556](https://github.com/user-attachments/assets/2ddfdf46-717a-4eae-bca8-04db300de0e3)
+![WhatsApp Image 2025-11-27 at 20 17 24_d0690a16](https://github.com/user-attachments/assets/cea97e1d-f703-46b5-ad71-a44944e32462)
+
 
 Calculation
 
 ma (Theory) = am/ac =0.5
 
-ma(Practical) = (Emax-Emin)/(Emax+Emin) =0.3333
+ma(Practical) = (Emax-Emin)/(Emax+Emin) =0.5
 
 RESULT: 
 
